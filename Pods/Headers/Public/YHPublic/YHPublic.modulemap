@@ -1,0 +1,6 @@
+module YHPublic {
+  umbrella header "YHPublic-umbrella.h"
+
+  export *
+  module * { export * }
+}

@@ -1,0 +1,22 @@
+PODS:
+  - YHInternal (0.0.2):
+    - YHPublic
+  - YHPublic (0.0.2)
+
+DEPENDENCIES:
+  - YHInternal (from `LocalPods/ComponentA`)
+  - YHPublic (from `LocalPods/ComponentA`)
+
+EXTERNAL SOURCES:
+  YHInternal:
+    :path: LocalPods/ComponentA
+  YHPublic:
+    :path: LocalPods/ComponentA
+
+SPEC CHECKSUMS:
+  YHInternal: 2586375ad408762531d34d4e0ac53ac02a1c01b6
+  YHPublic: e4c94dbd92cd17b696a8e56e9830a0e82f8f2e8d
+
+PODFILE CHECKSUM: fc600601f1bc40c9b02ae74e7c212a59772c40a2
+
+COCOAPODS: 1.5.3

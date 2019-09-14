@@ -1,0 +1,29 @@
+{
+  "name": "YHInternal",
+  "version": "0.0.2",
+  "summary": "A short description of YHInternal.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/whoyoung/YHComponentBasedDesign",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "yanghu": "huyang@mail.bistu.edu.cn"
+  },
+  "source": {
+    "git": "https://github.com/whoyoung/YHComponentBasedDesign.git",
+    "tag": "0.0.2"
+  },
+  "platforms": {
+    "ios": "9.0"
+  },
+  "module_name": "YHInternal",
+  "header_dir": "YHInternal",
+  "source_files": "Internal/**/*",
+  "dependencies": {
+    "YHPublic": [
+
+    ]
+  }
+}

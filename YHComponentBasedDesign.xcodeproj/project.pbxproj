@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3189BDCFD5C0A220BB555E40 /* libPods-YHComponentBasedDesign.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 2E5B6AAC7F8B62C6CBCC57F7 /* libPods-YHComponentBasedDesign.a */; };
 		6F270CE8232CB27B00C51CFB /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 6F270CE7232CB27B00C51CFB /* AppDelegate.m */; };
 		6F270CEB232CB27B00C51CFB /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6F270CEA232CB27B00C51CFB /* ViewController.m */; };
 		6F270CEE232CB27B00C51CFB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6F270CEC232CB27B00C51CFB /* Main.storyboard */; };
@@ -16,6 +17,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		2E5B6AAC7F8B62C6CBCC57F7 /* libPods-YHComponentBasedDesign.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-YHComponentBasedDesign.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		45DDAE9A0C14F1D6249BF0A2 /* Pods-YHComponentBasedDesign.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YHComponentBasedDesign.release.xcconfig"; path = "Pods/Target Support Files/Pods-YHComponentBasedDesign/Pods-YHComponentBasedDesign.release.xcconfig"; sourceTree = "<group>"; };
 		6F270CE3232CB27B00C51CFB /* YHComponentBasedDesign.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = YHComponentBasedDesign.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6F270CE6232CB27B00C51CFB /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		6F270CE7232CB27B00C51CFB /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -26,6 +29,7 @@
 		6F270CF2232CB28800C51CFB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		6F270CF4232CB28800C51CFB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		6F270CF5232CB28800C51CFB /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		8F70918A48B2E09DDFB96E5A /* Pods-YHComponentBasedDesign.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YHComponentBasedDesign.debug.xcconfig"; path = "Pods/Target Support Files/Pods-YHComponentBasedDesign/Pods-YHComponentBasedDesign.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -33,17 +37,28 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3189BDCFD5C0A220BB555E40 /* libPods-YHComponentBasedDesign.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		49540FA122F04C26B42A569B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				2E5B6AAC7F8B62C6CBCC57F7 /* libPods-YHComponentBasedDesign.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		6F270CDA232CB27B00C51CFB = {
 			isa = PBXGroup;
 			children = (
 				6F270CE5232CB27B00C51CFB /* YHComponentBasedDesign */,
 				6F270CE4232CB27B00C51CFB /* Products */,
+				BFBFEBB62726FA26D9C1591A /* Pods */,
+				49540FA122F04C26B42A569B /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -71,6 +86,15 @@
 			path = YHComponentBasedDesign;
 			sourceTree = "<group>";
 		};
+		BFBFEBB62726FA26D9C1591A /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				8F70918A48B2E09DDFB96E5A /* Pods-YHComponentBasedDesign.debug.xcconfig */,
+				45DDAE9A0C14F1D6249BF0A2 /* Pods-YHComponentBasedDesign.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -78,6 +102,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 6F270CF9232CB28800C51CFB /* Build configuration list for PBXNativeTarget "YHComponentBasedDesign" */;
 			buildPhases = (
+				366782D20F4CAA30F7FA0A0F /* [CP] Check Pods Manifest.lock */,
 				6F270CDF232CB27B00C51CFB /* Sources */,
 				6F270CE0232CB27B00C51CFB /* Frameworks */,
 				6F270CE1232CB27B00C51CFB /* Resources */,
@@ -135,6 +160,27 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		366782D20F4CAA30F7FA0A0F /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-YHComponentBasedDesign-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		6F270CDF232CB27B00C51CFB /* Sources */ = {
@@ -283,6 +329,7 @@
 		};
 		6F270CFA232CB28800C51CFB /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8F70918A48B2E09DDFB96E5A /* Pods-YHComponentBasedDesign.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -295,11 +342,13 @@
 				PRODUCT_BUNDLE_IDENTIFIER = young.YHComponentBasedDesign;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = "1,2";
+				USER_HEADER_SEARCH_PATHS = "$(PODS_ROOT)/**";
 			};
 			name = Debug;
 		};
 		6F270CFB232CB28800C51CFB /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 45DDAE9A0C14F1D6249BF0A2 /* Pods-YHComponentBasedDesign.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -312,6 +361,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = young.YHComponentBasedDesign;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = "1,2";
+				USER_HEADER_SEARCH_PATHS = "$(PODS_ROOT)/**";
 			};
 			name = Release;
 		};

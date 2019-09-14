@@ -1,0 +1,6 @@
+module YHInternal {
+  umbrella header "YHInternal-umbrella.h"
+
+  export *
+  module * { export * }
+}

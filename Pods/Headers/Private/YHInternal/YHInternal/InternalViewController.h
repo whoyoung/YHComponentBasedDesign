@@ -1,0 +1,1 @@
+../../../../../LocalPods/ComponentA/Internal/Controller/InternalViewController.h
