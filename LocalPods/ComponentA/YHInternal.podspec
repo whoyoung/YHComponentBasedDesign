@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'YHInternal'
-  s.version          = '0.0.2'
+  s.version          = '0.0.1'
   s.summary          = 'A short description of YHInternal.'
 
 # This description is used to generate tags and improve search results.
@@ -39,4 +39,7 @@ TODO: Add long description of the pod here.
   # }
 
   s.dependency 'YHPublic'
+  s.dependency 'DirectorComponent'
+  s.dependency 'DependencyComponent'
+
 end

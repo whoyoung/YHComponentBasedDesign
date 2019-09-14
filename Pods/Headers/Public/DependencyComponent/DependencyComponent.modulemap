@@ -1,0 +1,6 @@
+module DependencyComponent {
+  umbrella header "DependencyComponent-umbrella.h"
+
+  export *
+  module * { export * }
+}

@@ -1,9 +1,9 @@
 GCC_PREPROCESSOR_DEFINITIONS = $(inherited) COCOAPODS=1
-HEADER_SEARCH_PATHS = $(inherited) "${PODS_ROOT}/Headers/Public" "${PODS_ROOT}/Headers/Public/YHInternal" "${PODS_ROOT}/Headers/Public/YHPublic"
-LIBRARY_SEARCH_PATHS = $(inherited) "${PODS_CONFIGURATION_BUILD_DIR}/YHInternal" "${PODS_CONFIGURATION_BUILD_DIR}/YHPublic"
-OTHER_CFLAGS = $(inherited) -fmodule-map-file="${PODS_ROOT}/Headers/Public/YHInternal/YHInternal.modulemap" -fmodule-map-file="${PODS_ROOT}/Headers/Public/YHPublic/YHPublic.modulemap" -isystem "${PODS_ROOT}/Headers/Public" -isystem "${PODS_ROOT}/Headers/Public/YHInternal" -isystem "${PODS_ROOT}/Headers/Public/YHPublic"
-OTHER_LDFLAGS = $(inherited) -ObjC -l"YHInternal" -l"YHPublic"
-OTHER_SWIFT_FLAGS = $(inherited) -Xcc -fmodule-map-file="${PODS_ROOT}/Headers/Public/YHInternal/YHInternal.modulemap" -Xcc -fmodule-map-file="${PODS_ROOT}/Headers/Public/YHPublic/YHPublic.modulemap"
+HEADER_SEARCH_PATHS = $(inherited) "${PODS_ROOT}/Headers/Public" "${PODS_ROOT}/Headers/Public/DependencyComponent" "${PODS_ROOT}/Headers/Public/DirectorComponent" "${PODS_ROOT}/Headers/Public/YHInternal" "${PODS_ROOT}/Headers/Public/YHPublic"
+LIBRARY_SEARCH_PATHS = $(inherited) "${PODS_CONFIGURATION_BUILD_DIR}/DependencyComponent" "${PODS_CONFIGURATION_BUILD_DIR}/DirectorComponent" "${PODS_CONFIGURATION_BUILD_DIR}/YHInternal" "${PODS_CONFIGURATION_BUILD_DIR}/YHPublic"
+OTHER_CFLAGS = $(inherited) -fmodule-map-file="${PODS_ROOT}/Headers/Public/DependencyComponent/DependencyComponent.modulemap" -fmodule-map-file="${PODS_ROOT}/Headers/Public/DirectorComponent/DirectorComponent.modulemap" -fmodule-map-file="${PODS_ROOT}/Headers/Public/YHInternal/YHInternal.modulemap" -fmodule-map-file="${PODS_ROOT}/Headers/Public/YHPublic/YHPublic.modulemap" -isystem "${PODS_ROOT}/Headers/Public" -isystem "${PODS_ROOT}/Headers/Public/DependencyComponent" -isystem "${PODS_ROOT}/Headers/Public/DirectorComponent" -isystem "${PODS_ROOT}/Headers/Public/YHInternal" -isystem "${PODS_ROOT}/Headers/Public/YHPublic"
+OTHER_LDFLAGS = $(inherited) -ObjC -l"DependencyComponent" -l"DirectorComponent" -l"YHInternal" -l"YHPublic"
+OTHER_SWIFT_FLAGS = $(inherited) -Xcc -fmodule-map-file="${PODS_ROOT}/Headers/Public/DependencyComponent/DependencyComponent.modulemap" -Xcc -fmodule-map-file="${PODS_ROOT}/Headers/Public/DirectorComponent/DirectorComponent.modulemap" -Xcc -fmodule-map-file="${PODS_ROOT}/Headers/Public/YHInternal/YHInternal.modulemap" -Xcc -fmodule-map-file="${PODS_ROOT}/Headers/Public/YHPublic/YHPublic.modulemap"
 PODS_BUILD_DIR = ${BUILD_DIR}
 PODS_CONFIGURATION_BUILD_DIR = ${PODS_BUILD_DIR}/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)
 PODS_PODFILE_DIR_PATH = ${SRCROOT}/.

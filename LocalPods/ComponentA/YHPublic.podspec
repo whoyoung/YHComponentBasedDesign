@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'YHPublic'
-  s.version          = '0.0.2'
+  s.version          = '0.0.1'
   s.summary          = 'A short description of YHPublic.'
 
 # This description is used to generate tags and improve search results.
@@ -32,7 +32,6 @@ TODO: Add long description of the pod here.
   s.module_name = s.name
   s.header_dir = s.name
   s.source_files = 'Public/**/*'
-
 
   # s.resource_bundles = {
   #   'YHInternal' => ['YHConstants/Assets/*.png']

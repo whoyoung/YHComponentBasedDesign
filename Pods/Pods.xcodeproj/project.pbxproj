@@ -7,88 +7,176 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		27FB7DC5BA43264970B0D538D9A7CD31 /* YHPublic-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 95485F3EF287AF1E7D30CF450FF80038 /* YHPublic-umbrella.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		3AB3A5233E479B24F15B73BD89183C07 /* InternalViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 690AF350EF0EF5B8A5EEF764250DCBCD /* InternalViewController.m */; };
-		51A268EBE2A83111B6030EFD00C73C73 /* Pods-YHComponentBasedDesign-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 8A5ED5D7861684A398862BEBF89F1EC9 /* Pods-YHComponentBasedDesign-dummy.m */; };
-		58966EEDAEC8A3CC560C78ACCFC84CAA /* InternalViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 4EB28FDD91275F8590E0FDCAB799655E /* InternalViewController.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		6BABD9EABDC668F2E62C0984D259FD7F /* YHInternal-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 1A79981A19597A875C6C5F0C447DD604 /* YHInternal-umbrella.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		713B4D2D3E56C693C62503C26E8A8030 /* PublicViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8C50ED3A75FB59D4B2C580F1183F2821 /* PublicViewController.m */; };
-		BA6F1829EB7D9811AAD5B9198729FC2C /* YHInternal-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 0FA3179BCBE240699421DD83AAF59889 /* YHInternal-dummy.m */; };
-		E228D21520B54805A40F3324B147C4C5 /* PublicViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 0F374461E2021DED6D47842CF2BB236A /* PublicViewController.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		E3ECEBDCD9F7472B917404C756446578 /* YHPublic-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 7AD48FB04A47540E305D7F862078837E /* YHPublic-dummy.m */; };
+		02C8F8C6EB149F8F460A13F548B2FB4E /* InternalViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FC9C4733325AFAA2ACCE8477974A5D47 /* InternalViewController.m */; };
+		07308DEE27C89A78F7F755A03AA663BF /* YHInternal-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 5A6D6C162B8632842ADF03DD5C492739 /* YHInternal-umbrella.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		0B073A9667C8A2298A489BFACE539D33 /* InternalNextViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 2912B868082AC94FD6F4E6C5DE5FBE71 /* InternalNextViewController.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		1DB4AD4B37FFBB0BB5F23F9E2625281D /* DependencyComponent-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 8CBC8DB4911673C725F18A5C39EFBAF3 /* DependencyComponent-umbrella.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		21B75AB563ACD84B5F9DCB95EC739959 /* PublicViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 76FF381431B3F4F497CDACFFA15260E9 /* PublicViewController.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		308167EA43DF5B03AA647627D27ACEC5 /* YHDirector.m in Sources */ = {isa = PBXBuildFile; fileRef = E7C4938096983FF6A834DDAD5F92D343 /* YHDirector.m */; };
+		339FB222D9E4B8DC4EC00F8DC6C19F0A /* PublicViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 547F7E425F7D8544B402E5716F6068A1 /* PublicViewController.m */; };
+		3A528D1DCE4563E26E1AFC4957CA5CD5 /* YHDirectorProtocolCompontA.h in Headers */ = {isa = PBXBuildFile; fileRef = D7C30F779FA93847B1EF129E4E44A1AF /* YHDirectorProtocolCompontA.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		3B99AA197690D789CC243CCA5B2FE866 /* DirectorComponent.podspec in Sources */ = {isa = PBXBuildFile; fileRef = 73C0FB8D7FD4FA32E37069D6B92AD5C0 /* DirectorComponent.podspec */; };
+		4759BEE246AB7EE867D2F77D79F962F9 /* YHDirector.h in Headers */ = {isa = PBXBuildFile; fileRef = 0A5EADB732EAA514FCAECAD484654D2C /* YHDirector.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		541B3D3161EF2211371521F27ECF6D55 /* LICENSE in Sources */ = {isa = PBXBuildFile; fileRef = 27C6964AE938B609216D0720E483A6D7 /* LICENSE */; };
+		5D5E4F133B7BF51D52E0288B87EBD9B1 /* YHPublic-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = CE2CBA1DC91D6EE2A21CA94AFDFA2CA6 /* YHPublic-umbrella.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		5F55B98EFEAC8D0074DBBB10297CA571 /* DirectorComponent-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = E91C75FCE2DC4E3A5CD22D207CC7BFE0 /* DirectorComponent-dummy.m */; };
+		5F5A15373A8A5EEB0EAD24E5B247AB35 /* DirectorComponent-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = B5EFF8848C785142C075CAA5DA6E24DD /* DirectorComponent-umbrella.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		67409CCF4233034C7A43285CC366DA59 /* YHDirector+ComponentA.h in Headers */ = {isa = PBXBuildFile; fileRef = 0E8F0734E144D947179C5EE206EB2E43 /* YHDirector+ComponentA.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		6AECAAC50100F78835B85F0E040190F1 /* YHDirector+ComponentA.m in Sources */ = {isa = PBXBuildFile; fileRef = D1DDD9C8B4B1693693DDEC0C5B2D4070 /* YHDirector+ComponentA.m */; };
+		7737F574DBB0E06BEEC214F4111F6A7D /* DependencyComponent.podspec in Sources */ = {isa = PBXBuildFile; fileRef = 4249638A46BFED81BE3A923367B63B62 /* DependencyComponent.podspec */; };
+		8357A35BF077821503E22FCD7C9598D8 /* DependencyComponent-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 4172AAB07D852C433B47C97A507E465A /* DependencyComponent-dummy.m */; };
+		A7CDB1BBCA5EB214326F1CECE1BB5E6E /* InternalNextViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 464261E60F63BBE72A472E89F07B2FEF /* InternalNextViewController.m */; };
+		AB7A352F72B4B8E82A46A587EB5E8525 /* DependencyManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 34843D5B8C8A53952614B2D6E091B24B /* DependencyManager.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		B24BBAC850F941154F31756971790DC9 /* YHInternalModule.m in Sources */ = {isa = PBXBuildFile; fileRef = 6AB37C983E78250D799EA4EB03971947 /* YHInternalModule.m */; };
+		B5D0C79CAFF4F591AC19297919414578 /* LICENSE in Sources */ = {isa = PBXBuildFile; fileRef = 099433D4C3FF6DE30C1CCDAD26443478 /* LICENSE */; };
+		BE65471050EAF5B067A7A8B8C7D99932 /* YHPublic-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = ED7097A73DA6EB3D300EE5D553EF6B5D /* YHPublic-dummy.m */; };
+		C70C617925FBA1F597C907A799E25BC0 /* InternalViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 6201A38767D83861721155B8B4906524 /* InternalViewController.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		D58142C63D87C36536B03000532BE0BD /* YHInternalModule.h in Headers */ = {isa = PBXBuildFile; fileRef = 5F77C367B9D99927C30874DFCF26E5DF /* YHInternalModule.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		D6C16E06A78912C43CA44FA54B8BA9FD /* DependencyManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 7BAF23FF415E4B64A665D230B98ACBDB /* DependencyManager.m */; };
+		D9A3B7612BF90EADA3EAF41139D21724 /* YHInternal-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = E6348EB4E1E6FF93329B5F3CE76DCEF7 /* YHInternal-dummy.m */; };
+		E936B408201685C6A2786B761E72D69C /* Pods-YHComponentBasedDesign-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 8A5ED5D7861684A398862BEBF89F1EC9 /* Pods-YHComponentBasedDesign-dummy.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		361B79DC6E3E90093F86CE26D00B247B /* PBXContainerItemProxy */ = {
+		5612930C74BA9B43AF530A54B12CE994 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 36719E248F8CF87732CAB588FE7528EC;
+			remoteGlobalIDString = 0AD2A07C0B5E5DEB636E2B1CD9F05DE7;
+			remoteInfo = DirectorComponent;
+		};
+		734CBD48AA5748A71FCD57A4F98C211C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7D261F421D5823A5031633C1AF52863B;
 			remoteInfo = YHInternal;
 		};
-		6245D06C6CA7AFD5FF5D29EB4AA4E939 /* PBXContainerItemProxy */ = {
+		73796DE79B1B7FA9670B3E3F3EAEAB48 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 03BC1BD93539E41038F33576B800F84F;
+			remoteGlobalIDString = 58D0E04DFA3E37A8B19DA5574D5A6FEE;
 			remoteInfo = YHPublic;
 		};
-		72B1A5E3EE44C45B5FAA9D4828D2F2B3 /* PBXContainerItemProxy */ = {
+		B49A4D4AE92CCB2CA267DF2A5951B3F8 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 03BC1BD93539E41038F33576B800F84F;
+			remoteGlobalIDString = 58D0E04DFA3E37A8B19DA5574D5A6FEE;
 			remoteInfo = YHPublic;
+		};
+		D6C21C6C1676ED5F8D1A2F7039087178 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D1C91F11C123927038E57BCE215158D8;
+			remoteInfo = DependencyComponent;
+		};
+		E357D58BBB96AD639E15FECDBB57897C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0AD2A07C0B5E5DEB636E2B1CD9F05DE7;
+			remoteInfo = DirectorComponent;
+		};
+		EFD160D148041DB452EE5DAF2915D1F6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D1C91F11C123927038E57BCE215158D8;
+			remoteInfo = DependencyComponent;
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		00FA7ABFF6B2460F79F36B330006B742 /* YHPublic.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; path = YHPublic.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		0F374461E2021DED6D47842CF2BB236A /* PublicViewController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = PublicViewController.h; path = Public/Controller/PublicViewController.h; sourceTree = "<group>"; };
-		0FA3179BCBE240699421DD83AAF59889 /* YHInternal-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "YHInternal-dummy.m"; sourceTree = "<group>"; };
-		1A79981A19597A875C6C5F0C447DD604 /* YHInternal-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "YHInternal-umbrella.h"; path = "../../Headers/Public/YHInternal/YHInternal-umbrella.h"; sourceTree = "<group>"; };
-		1E26535209ED1C75AFA5846A9F0681F6 /* YHInternal.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; name = YHInternal.modulemap; path = ../../Headers/Public/YHInternal/YHInternal.modulemap; sourceTree = "<group>"; };
-		2726BA5E47A722A68B5A724F2B4780DD /* YHPublic.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; name = YHPublic.modulemap; path = ../../Headers/Public/YHPublic/YHPublic.modulemap; sourceTree = "<group>"; };
+		099433D4C3FF6DE30C1CCDAD26443478 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		0A5EADB732EAA514FCAECAD484654D2C /* YHDirector.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = YHDirector.h; sourceTree = "<group>"; };
+		0D760471FA7B071A7A1EE479A5322A8F /* libPods-YHComponentBasedDesign.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = "libPods-YHComponentBasedDesign.a"; path = "libPods-YHComponentBasedDesign.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		0E8F0734E144D947179C5EE206EB2E43 /* YHDirector+ComponentA.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "YHDirector+ComponentA.h"; path = "Internal/YHDirector+ComponentA.h"; sourceTree = "<group>"; };
+		11A7AD4BD60042CF7EA46100C837292A /* DirectorComponent.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; name = DirectorComponent.modulemap; path = ../../Headers/Public/DirectorComponent/DirectorComponent.modulemap; sourceTree = "<group>"; };
+		11D458C9C402ACD6376FE1D50B0AFAB5 /* YHPublic.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; path = YHPublic.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		1ECFA256F6F15F1EC741CC8271A162DA /* YHPublic.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = YHPublic.xcconfig; sourceTree = "<group>"; };
 		278A4E3D4FA3ED80DCBA18F12536C4EE /* Pods-YHComponentBasedDesign.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-YHComponentBasedDesign.release.xcconfig"; sourceTree = "<group>"; };
+		27C6964AE938B609216D0720E483A6D7 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		2912B868082AC94FD6F4E6C5DE5FBE71 /* InternalNextViewController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = InternalNextViewController.h; sourceTree = "<group>"; };
+		34843D5B8C8A53952614B2D6E091B24B /* DependencyManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = DependencyManager.h; sourceTree = "<group>"; };
 		367AB318AF2AEF4469654E489DA6E530 /* Pods-YHComponentBasedDesign-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-YHComponentBasedDesign-acknowledgements.markdown"; sourceTree = "<group>"; };
-		387EDFFECA5C85DB4FADE448E84A2D29 /* YHPublic.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = YHPublic.xcconfig; sourceTree = "<group>"; };
-		4EB28FDD91275F8590E0FDCAB799655E /* InternalViewController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = InternalViewController.h; path = Internal/Controller/InternalViewController.h; sourceTree = "<group>"; };
-		567574C23DF4D80FFE743619E67C310D /* YHPublic-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "YHPublic-prefix.pch"; sourceTree = "<group>"; };
-		60574292A04809DD5BCF9E02CEBCD770 /* YHInternal.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = YHInternal.xcconfig; sourceTree = "<group>"; };
-		690AF350EF0EF5B8A5EEF764250DCBCD /* InternalViewController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = InternalViewController.m; path = Internal/Controller/InternalViewController.m; sourceTree = "<group>"; };
+		4172AAB07D852C433B47C97A507E465A /* DependencyComponent-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "DependencyComponent-dummy.m"; sourceTree = "<group>"; };
+		4249638A46BFED81BE3A923367B63B62 /* DependencyComponent.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; path = DependencyComponent.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		464261E60F63BBE72A472E89F07B2FEF /* InternalNextViewController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = InternalNextViewController.m; sourceTree = "<group>"; };
+		547F7E425F7D8544B402E5716F6068A1 /* PublicViewController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = PublicViewController.m; sourceTree = "<group>"; };
+		57C58EC322C07412F95E2EB0E1969F5C /* libDependencyComponent.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = libDependencyComponent.a; path = libDependencyComponent.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		5A6D6C162B8632842ADF03DD5C492739 /* YHInternal-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "YHInternal-umbrella.h"; path = "../../Headers/Public/YHInternal/YHInternal-umbrella.h"; sourceTree = "<group>"; };
+		5F77C367B9D99927C30874DFCF26E5DF /* YHInternalModule.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = YHInternalModule.h; path = Internal/YHInternalModule.h; sourceTree = "<group>"; };
+		6201A38767D83861721155B8B4906524 /* InternalViewController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = InternalViewController.h; sourceTree = "<group>"; };
+		63DF9233713C96BA1DB6BCB24198322E /* libYHPublic.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = libYHPublic.a; path = libYHPublic.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		640CA99C5B5ED25D079109CFC156E8B4 /* YHInternal-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "YHInternal-prefix.pch"; sourceTree = "<group>"; };
+		6AB37C983E78250D799EA4EB03971947 /* YHInternalModule.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = YHInternalModule.m; path = Internal/YHInternalModule.m; sourceTree = "<group>"; };
 		6C0880FD56CFB4CBCCAA0B0A73015724 /* Pods-YHComponentBasedDesign-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-YHComponentBasedDesign-resources.sh"; sourceTree = "<group>"; };
-		72A899646C9CBF0655D210C7C55445BB /* YHInternal.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; path = YHInternal.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		7AD48FB04A47540E305D7F862078837E /* YHPublic-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "YHPublic-dummy.m"; sourceTree = "<group>"; };
+		73C0FB8D7FD4FA32E37069D6B92AD5C0 /* DirectorComponent.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; path = DirectorComponent.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		76FF381431B3F4F497CDACFFA15260E9 /* PublicViewController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = PublicViewController.h; sourceTree = "<group>"; };
+		7914F34B4DD2A065728333C764FCD846 /* DirectorComponent-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "DirectorComponent-prefix.pch"; sourceTree = "<group>"; };
+		7BAF23FF415E4B64A665D230B98ACBDB /* DependencyManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = DependencyManager.m; sourceTree = "<group>"; };
 		805B3377C76E6DA2C2D6A42C3DC1A1D7 /* Pods-YHComponentBasedDesign.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-YHComponentBasedDesign.debug.xcconfig"; sourceTree = "<group>"; };
+		83C8BA246B7C9D02CEE8FB7C964CB40C /* DependencyComponent-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "DependencyComponent-prefix.pch"; sourceTree = "<group>"; };
 		8A5ED5D7861684A398862BEBF89F1EC9 /* Pods-YHComponentBasedDesign-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-YHComponentBasedDesign-dummy.m"; sourceTree = "<group>"; };
-		8C50ED3A75FB59D4B2C580F1183F2821 /* PublicViewController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = PublicViewController.m; path = Public/Controller/PublicViewController.m; sourceTree = "<group>"; };
+		8CBC8DB4911673C725F18A5C39EFBAF3 /* DependencyComponent-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "DependencyComponent-umbrella.h"; path = "../../Headers/Public/DependencyComponent/DependencyComponent-umbrella.h"; sourceTree = "<group>"; };
 		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		95485F3EF287AF1E7D30CF450FF80038 /* YHPublic-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "YHPublic-umbrella.h"; path = "../../Headers/Public/YHPublic/YHPublic-umbrella.h"; sourceTree = "<group>"; };
-		9A475B99D1A7D805FEC046219A16CB2F /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		940AEBCF8DAAD5E92FB555FA2AD7CFE3 /* YHInternal.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = YHInternal.xcconfig; sourceTree = "<group>"; };
 		9DB5F90DFE0C0AC1F903B9E7BC2B4DD7 /* Pods-YHComponentBasedDesign-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-YHComponentBasedDesign-frameworks.sh"; sourceTree = "<group>"; };
-		AB2BC1B92E494EA0B640F34114CB04FA /* libYHInternal.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = libYHInternal.a; path = libYHInternal.a; sourceTree = BUILT_PRODUCTS_DIR; };
-		B1E5989BD31E4CBAF7A15D43EF668C66 /* libYHPublic.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = libYHPublic.a; path = libYHPublic.a; sourceTree = BUILT_PRODUCTS_DIR; };
-		B9A1E3BF3D3ACA9DC8AD11D86DE960FC /* libPods-YHComponentBasedDesign.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = "libPods-YHComponentBasedDesign.a"; path = "libPods-YHComponentBasedDesign.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A68D911B4861FCA8D26B0CB64435ED3E /* YHInternal.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; name = YHInternal.modulemap; path = ../../Headers/Public/YHInternal/YHInternal.modulemap; sourceTree = "<group>"; };
+		B5EFF8848C785142C075CAA5DA6E24DD /* DirectorComponent-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "DirectorComponent-umbrella.h"; path = "../../Headers/Public/DirectorComponent/DirectorComponent-umbrella.h"; sourceTree = "<group>"; };
+		BB246D89F6AB36BF1708D0C560CE7980 /* libYHInternal.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = libYHInternal.a; path = libYHInternal.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		BBB041F1EDD4385D7A51D955784DA3BF /* YHInternal.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; path = YHInternal.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		C9267724AADE48C585B4957B9ECEFD79 /* libDirectorComponent.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = libDirectorComponent.a; path = libDirectorComponent.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		CE2CBA1DC91D6EE2A21CA94AFDFA2CA6 /* YHPublic-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "YHPublic-umbrella.h"; path = "../../Headers/Public/YHPublic/YHPublic-umbrella.h"; sourceTree = "<group>"; };
+		D1DDD9C8B4B1693693DDEC0C5B2D4070 /* YHDirector+ComponentA.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "YHDirector+ComponentA.m"; path = "Internal/YHDirector+ComponentA.m"; sourceTree = "<group>"; };
+		D38C53E7F932EBD7C00AC87C225FD010 /* YHPublic.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; name = YHPublic.modulemap; path = ../../Headers/Public/YHPublic/YHPublic.modulemap; sourceTree = "<group>"; };
 		D7743BC966A9B65F9226399ADDFDCFC6 /* Pods-YHComponentBasedDesign-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-YHComponentBasedDesign-acknowledgements.plist"; sourceTree = "<group>"; };
-		F18E6E901D90CBC49005915C2C924BA5 /* YHInternal-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "YHInternal-prefix.pch"; sourceTree = "<group>"; };
+		D7C30F779FA93847B1EF129E4E44A1AF /* YHDirectorProtocolCompontA.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = YHDirectorProtocolCompontA.h; path = Public/YHDirectorProtocolCompontA.h; sourceTree = "<group>"; };
+		D90CAB7811CC6CFB2E1AD4673FD034B0 /* DependencyComponent.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = DependencyComponent.xcconfig; sourceTree = "<group>"; };
+		DBE442D98155FE41B82092225264BD5A /* DirectorComponent.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = DirectorComponent.xcconfig; sourceTree = "<group>"; };
+		DC65A2F07FD1DDDF69B1CCABDC027A4D /* DependencyComponent.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; name = DependencyComponent.modulemap; path = ../../Headers/Public/DependencyComponent/DependencyComponent.modulemap; sourceTree = "<group>"; };
+		E21CD3823D3CD8802CFBC8B9F23A1C79 /* YHPublic-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "YHPublic-prefix.pch"; sourceTree = "<group>"; };
+		E6348EB4E1E6FF93329B5F3CE76DCEF7 /* YHInternal-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "YHInternal-dummy.m"; sourceTree = "<group>"; };
+		E7C4938096983FF6A834DDAD5F92D343 /* YHDirector.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = YHDirector.m; sourceTree = "<group>"; };
+		E91C75FCE2DC4E3A5CD22D207CC7BFE0 /* DirectorComponent-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "DirectorComponent-dummy.m"; sourceTree = "<group>"; };
+		ED7097A73DA6EB3D300EE5D553EF6B5D /* YHPublic-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "YHPublic-dummy.m"; sourceTree = "<group>"; };
+		EECD1EF738E4BA17CAB3876CF8A95C84 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		FC9C4733325AFAA2ACCE8477974A5D47 /* InternalViewController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = InternalViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		24725DB5AB01B36162E67AEDFE37E125 /* Frameworks */ = {
+		6BE7006542BA348F114292F654C03B47 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		299113EDD0DDD6A66D8FC168C03F872F /* Frameworks */ = {
+		9B7BA4273C95953A4A1E84FC14A52D03 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		74C81BC7B607288FB534CE0BC5FA1A78 /* Frameworks */ = {
+		A526657B52DFFEF8EA5D5004877412F8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DC265DCDB023E0FC7C3333BED759A6F1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E239E24EF078D4C92983F8261ED962DD /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -98,6 +186,13 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0BF06EE36FF5405080BD126CCB661901 /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
 		0F8D2E47FE03D3B91B51069F7C273AF4 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
@@ -120,50 +215,90 @@
 			path = "Target Support Files/Pods-YHComponentBasedDesign";
 			sourceTree = "<group>";
 		};
-		17DEB9AE066E0AD5175A867AE3CD5272 /* Support Files */ = {
+		1256C34A190A87F55040B7A5EB471F39 /* Controller */ = {
 			isa = PBXGroup;
 			children = (
-				2726BA5E47A722A68B5A724F2B4780DD /* YHPublic.modulemap */,
-				387EDFFECA5C85DB4FADE448E84A2D29 /* YHPublic.xcconfig */,
-				7AD48FB04A47540E305D7F862078837E /* YHPublic-dummy.m */,
-				567574C23DF4D80FFE743619E67C310D /* YHPublic-prefix.pch */,
-				95485F3EF287AF1E7D30CF450FF80038 /* YHPublic-umbrella.h */,
+				76FF381431B3F4F497CDACFFA15260E9 /* PublicViewController.h */,
+				547F7E425F7D8544B402E5716F6068A1 /* PublicViewController.m */,
 			);
-			name = "Support Files";
-			path = "../../Pods/Target Support Files/YHPublic";
+			name = Controller;
+			path = Public/Controller;
 			sourceTree = "<group>";
 		};
-		496984E6BD9C9ADB0774A0031EACB615 /* Pod */ = {
+		39736EBB0D217AA61C0A412B3B5FA6E8 /* DirectorComponent */ = {
 			isa = PBXGroup;
 			children = (
-				00FA7ABFF6B2460F79F36B330006B742 /* YHPublic.podspec */,
+				73C0FB8D7FD4FA32E37069D6B92AD5C0 /* DirectorComponent.podspec */,
+				099433D4C3FF6DE30C1CCDAD26443478 /* LICENSE */,
+				0A5EADB732EAA514FCAECAD484654D2C /* YHDirector.h */,
+				E7C4938096983FF6A834DDAD5F92D343 /* YHDirector.m */,
+				0BF06EE36FF5405080BD126CCB661901 /* Pod */,
+				B3EC3A86CA70A274088CC7B362E852D1 /* Support Files */,
+			);
+			name = DirectorComponent;
+			path = ../LocalPods/DirectorComponent;
+			sourceTree = "<group>";
+		};
+		4AA2CDB9415539B3CBA54B84478386EE /* DependencyComponent */ = {
+			isa = PBXGroup;
+			children = (
+				4249638A46BFED81BE3A923367B63B62 /* DependencyComponent.podspec */,
+				34843D5B8C8A53952614B2D6E091B24B /* DependencyManager.h */,
+				7BAF23FF415E4B64A665D230B98ACBDB /* DependencyManager.m */,
+				27C6964AE938B609216D0720E483A6D7 /* LICENSE */,
+				68FC5E06E8941592A5AF5D65CC66914F /* Pod */,
+				EF015C3A3D7416833C36D116899E62BD /* Support Files */,
+			);
+			name = DependencyComponent;
+			path = ../LocalPods/DependencyComponent;
+			sourceTree = "<group>";
+		};
+		4BCFC9F00260AB947465D4A7428B21DD /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				2912B868082AC94FD6F4E6C5DE5FBE71 /* InternalNextViewController.h */,
+				464261E60F63BBE72A472E89F07B2FEF /* InternalNextViewController.m */,
+				6201A38767D83861721155B8B4906524 /* InternalViewController.h */,
+				FC9C4733325AFAA2ACCE8477974A5D47 /* InternalViewController.m */,
+			);
+			name = Controller;
+			path = Internal/Controller;
+			sourceTree = "<group>";
+		};
+		50D0169109886E77BA537E4CC3367243 /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				11D458C9C402ACD6376FE1D50B0AFAB5 /* YHPublic.podspec */,
 			);
 			name = Pod;
 			sourceTree = "<group>";
 		};
-		4F4907FF14B0A524EE9C6CB26FDC8BC6 /* YHInternal */ = {
+		5D321BA9ADAAB55263E01464C5C52A05 /* YHPublic */ = {
 			isa = PBXGroup;
 			children = (
-				4EB28FDD91275F8590E0FDCAB799655E /* InternalViewController.h */,
-				690AF350EF0EF5B8A5EEF764250DCBCD /* InternalViewController.m */,
-				E3A1481A852BC73BEB3864121244447E /* Pod */,
-				6E8E0C9D478A0C423EA58A0982DE2395 /* Support Files */,
+				D7C30F779FA93847B1EF129E4E44A1AF /* YHDirectorProtocolCompontA.h */,
+				1256C34A190A87F55040B7A5EB471F39 /* Controller */,
+				50D0169109886E77BA537E4CC3367243 /* Pod */,
+				DEEDA6460A17C6E3ED24A5F729DB6EB1 /* Support Files */,
 			);
-			name = YHInternal;
+			name = YHPublic;
 			path = ../LocalPods/ComponentA;
 			sourceTree = "<group>";
 		};
-		6E8E0C9D478A0C423EA58A0982DE2395 /* Support Files */ = {
+		68FC5E06E8941592A5AF5D65CC66914F /* Pod */ = {
 			isa = PBXGroup;
 			children = (
-				1E26535209ED1C75AFA5846A9F0681F6 /* YHInternal.modulemap */,
-				60574292A04809DD5BCF9E02CEBCD770 /* YHInternal.xcconfig */,
-				0FA3179BCBE240699421DD83AAF59889 /* YHInternal-dummy.m */,
-				F18E6E901D90CBC49005915C2C924BA5 /* YHInternal-prefix.pch */,
-				1A79981A19597A875C6C5F0C447DD604 /* YHInternal-umbrella.h */,
 			);
-			name = "Support Files";
-			path = "../../Pods/Target Support Files/YHInternal";
+			name = Pod;
+			sourceTree = "<group>";
+		};
+		697695F67B30B293FA9B9E4EAE547C6F /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				EECD1EF738E4BA17CAB3876CF8A95C84 /* LICENSE */,
+				BBB041F1EDD4385D7A51D955784DA3BF /* YHInternal.podspec */,
+			);
+			name = Pod;
 			sourceTree = "<group>";
 		};
 		6F80BF219B3A0C681C9A8F72080CA1AB /* Targets Support Files */ = {
@@ -178,84 +313,173 @@
 			isa = PBXGroup;
 			children = (
 				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
-				7FFBD082E7877E68F52EE12DA2A1815D /* Development Pods */,
+				A0BCD40D3A7371AA4E7E5FBBFCC07B4F /* Development Pods */,
 				0F8D2E47FE03D3B91B51069F7C273AF4 /* Frameworks */,
-				C5CA3B60D4F0DF7D115EC4866BE9C5B1 /* Products */,
+				87271C9729F88EF188292A212164953D /* Products */,
 				6F80BF219B3A0C681C9A8F72080CA1AB /* Targets Support Files */,
 			);
 			sourceTree = "<group>";
 		};
-		7FFBD082E7877E68F52EE12DA2A1815D /* Development Pods */ = {
+		87271C9729F88EF188292A212164953D /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				4F4907FF14B0A524EE9C6CB26FDC8BC6 /* YHInternal */,
-				EBECF59BD43622C520BE76FE4E6FF78E /* YHPublic */,
-			);
-			name = "Development Pods";
-			sourceTree = "<group>";
-		};
-		C5CA3B60D4F0DF7D115EC4866BE9C5B1 /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				B9A1E3BF3D3ACA9DC8AD11D86DE960FC /* libPods-YHComponentBasedDesign.a */,
-				AB2BC1B92E494EA0B640F34114CB04FA /* libYHInternal.a */,
-				B1E5989BD31E4CBAF7A15D43EF668C66 /* libYHPublic.a */,
+				57C58EC322C07412F95E2EB0E1969F5C /* libDependencyComponent.a */,
+				C9267724AADE48C585B4957B9ECEFD79 /* libDirectorComponent.a */,
+				0D760471FA7B071A7A1EE479A5322A8F /* libPods-YHComponentBasedDesign.a */,
+				BB246D89F6AB36BF1708D0C560CE7980 /* libYHInternal.a */,
+				63DF9233713C96BA1DB6BCB24198322E /* libYHPublic.a */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		E3A1481A852BC73BEB3864121244447E /* Pod */ = {
+		8FE6C6BBB04F554702C2D1AEDEF85100 /* YHInternal */ = {
 			isa = PBXGroup;
 			children = (
-				9A475B99D1A7D805FEC046219A16CB2F /* LICENSE */,
-				72A899646C9CBF0655D210C7C55445BB /* YHInternal.podspec */,
+				0E8F0734E144D947179C5EE206EB2E43 /* YHDirector+ComponentA.h */,
+				D1DDD9C8B4B1693693DDEC0C5B2D4070 /* YHDirector+ComponentA.m */,
+				5F77C367B9D99927C30874DFCF26E5DF /* YHInternalModule.h */,
+				6AB37C983E78250D799EA4EB03971947 /* YHInternalModule.m */,
+				4BCFC9F00260AB947465D4A7428B21DD /* Controller */,
+				697695F67B30B293FA9B9E4EAE547C6F /* Pod */,
+				928FD0B5CB45994DAA884A253F781024 /* Support Files */,
 			);
-			name = Pod;
+			name = YHInternal;
+			path = ../LocalPods/ComponentA;
 			sourceTree = "<group>";
 		};
-		EBECF59BD43622C520BE76FE4E6FF78E /* YHPublic */ = {
+		928FD0B5CB45994DAA884A253F781024 /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				0F374461E2021DED6D47842CF2BB236A /* PublicViewController.h */,
-				8C50ED3A75FB59D4B2C580F1183F2821 /* PublicViewController.m */,
-				496984E6BD9C9ADB0774A0031EACB615 /* Pod */,
-				17DEB9AE066E0AD5175A867AE3CD5272 /* Support Files */,
+				A68D911B4861FCA8D26B0CB64435ED3E /* YHInternal.modulemap */,
+				940AEBCF8DAAD5E92FB555FA2AD7CFE3 /* YHInternal.xcconfig */,
+				E6348EB4E1E6FF93329B5F3CE76DCEF7 /* YHInternal-dummy.m */,
+				640CA99C5B5ED25D079109CFC156E8B4 /* YHInternal-prefix.pch */,
+				5A6D6C162B8632842ADF03DD5C492739 /* YHInternal-umbrella.h */,
 			);
-			name = YHPublic;
-			path = ../LocalPods/ComponentA;
+			name = "Support Files";
+			path = "../../Pods/Target Support Files/YHInternal";
+			sourceTree = "<group>";
+		};
+		A0BCD40D3A7371AA4E7E5FBBFCC07B4F /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				4AA2CDB9415539B3CBA54B84478386EE /* DependencyComponent */,
+				39736EBB0D217AA61C0A412B3B5FA6E8 /* DirectorComponent */,
+				8FE6C6BBB04F554702C2D1AEDEF85100 /* YHInternal */,
+				5D321BA9ADAAB55263E01464C5C52A05 /* YHPublic */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		B3EC3A86CA70A274088CC7B362E852D1 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				11A7AD4BD60042CF7EA46100C837292A /* DirectorComponent.modulemap */,
+				DBE442D98155FE41B82092225264BD5A /* DirectorComponent.xcconfig */,
+				E91C75FCE2DC4E3A5CD22D207CC7BFE0 /* DirectorComponent-dummy.m */,
+				7914F34B4DD2A065728333C764FCD846 /* DirectorComponent-prefix.pch */,
+				B5EFF8848C785142C075CAA5DA6E24DD /* DirectorComponent-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../../Pods/Target Support Files/DirectorComponent";
+			sourceTree = "<group>";
+		};
+		DEEDA6460A17C6E3ED24A5F729DB6EB1 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				D38C53E7F932EBD7C00AC87C225FD010 /* YHPublic.modulemap */,
+				1ECFA256F6F15F1EC741CC8271A162DA /* YHPublic.xcconfig */,
+				ED7097A73DA6EB3D300EE5D553EF6B5D /* YHPublic-dummy.m */,
+				E21CD3823D3CD8802CFBC8B9F23A1C79 /* YHPublic-prefix.pch */,
+				CE2CBA1DC91D6EE2A21CA94AFDFA2CA6 /* YHPublic-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../../Pods/Target Support Files/YHPublic";
+			sourceTree = "<group>";
+		};
+		EF015C3A3D7416833C36D116899E62BD /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				DC65A2F07FD1DDDF69B1CCABDC027A4D /* DependencyComponent.modulemap */,
+				D90CAB7811CC6CFB2E1AD4673FD034B0 /* DependencyComponent.xcconfig */,
+				4172AAB07D852C433B47C97A507E465A /* DependencyComponent-dummy.m */,
+				83C8BA246B7C9D02CEE8FB7C964CB40C /* DependencyComponent-prefix.pch */,
+				8CBC8DB4911673C725F18A5C39EFBAF3 /* DependencyComponent-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../../Pods/Target Support Files/DependencyComponent";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		51405BA332FCDE2727CA265EB2C05C2C /* Headers */ = {
+		53625CA2DADE46370E068ACF2A267BE0 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				58966EEDAEC8A3CC560C78ACCFC84CAA /* InternalViewController.h in Headers */,
-				6BABD9EABDC668F2E62C0984D259FD7F /* YHInternal-umbrella.h in Headers */,
+				0B073A9667C8A2298A489BFACE539D33 /* InternalNextViewController.h in Headers */,
+				C70C617925FBA1F597C907A799E25BC0 /* InternalViewController.h in Headers */,
+				67409CCF4233034C7A43285CC366DA59 /* YHDirector+ComponentA.h in Headers */,
+				07308DEE27C89A78F7F755A03AA663BF /* YHInternal-umbrella.h in Headers */,
+				D58142C63D87C36536B03000532BE0BD /* YHInternalModule.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		C292764F43900C37B01CF26497F68406 /* Headers */ = {
+		6583B124D816AB791C5B73B62A88A22A /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E228D21520B54805A40F3324B147C4C5 /* PublicViewController.h in Headers */,
-				27FB7DC5BA43264970B0D538D9A7CD31 /* YHPublic-umbrella.h in Headers */,
+				5F5A15373A8A5EEB0EAD24E5B247AB35 /* DirectorComponent-umbrella.h in Headers */,
+				4759BEE246AB7EE867D2F77D79F962F9 /* YHDirector.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A28D7FBE943563BE3341D4FFF92556CA /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				21B75AB563ACD84B5F9DCB95EC739959 /* PublicViewController.h in Headers */,
+				3A528D1DCE4563E26E1AFC4957CA5CD5 /* YHDirectorProtocolCompontA.h in Headers */,
+				5D5E4F133B7BF51D52E0288B87EBD9B1 /* YHPublic-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FEEDF293DE1A23991AD653B732D9B7E6 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1DB4AD4B37FFBB0BB5F23F9E2625281D /* DependencyComponent-umbrella.h in Headers */,
+				AB7A352F72B4B8E82A46A587EB5E8525 /* DependencyManager.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		03BC1BD93539E41038F33576B800F84F /* YHPublic */ = {
+		0AD2A07C0B5E5DEB636E2B1CD9F05DE7 /* DirectorComponent */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 0DBF0CEFD5AD36BECE8AD6A8D76BC573 /* Build configuration list for PBXNativeTarget "YHPublic" */;
+			buildConfigurationList = 71CA970F1C3C3F9E504810CD519133A0 /* Build configuration list for PBXNativeTarget "DirectorComponent" */;
 			buildPhases = (
-				37BE2F05662D4C4E1CE241AB8259F3C5 /* Sources */,
-				74C81BC7B607288FB534CE0BC5FA1A78 /* Frameworks */,
-				C292764F43900C37B01CF26497F68406 /* Headers */,
+				7B2E37FDC3BA05FCE5C60282AF1B67E7 /* Sources */,
+				6BE7006542BA348F114292F654C03B47 /* Frameworks */,
+				6583B124D816AB791C5B73B62A88A22A /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DirectorComponent;
+			productName = DirectorComponent;
+			productReference = C9267724AADE48C585B4957B9ECEFD79 /* libDirectorComponent.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		58D0E04DFA3E37A8B19DA5574D5A6FEE /* YHPublic */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D17011BF52F54BCF7956200790B2203F /* Build configuration list for PBXNativeTarget "YHPublic" */;
+			buildPhases = (
+				2059506210A7751958942F7EF90FDAE5 /* Sources */,
+				E239E24EF078D4C92983F8261ED962DD /* Frameworks */,
+				A28D7FBE943563BE3341D4FFF92556CA /* Headers */,
 			);
 			buildRules = (
 			);
@@ -263,43 +487,64 @@
 			);
 			name = YHPublic;
 			productName = YHPublic;
-			productReference = B1E5989BD31E4CBAF7A15D43EF668C66 /* libYHPublic.a */;
+			productReference = 63DF9233713C96BA1DB6BCB24198322E /* libYHPublic.a */;
 			productType = "com.apple.product-type.library.static";
 		};
-		36719E248F8CF87732CAB588FE7528EC /* YHInternal */ = {
+		7D261F421D5823A5031633C1AF52863B /* YHInternal */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 3FADDD4B375D0833797F2D3938936E2E /* Build configuration list for PBXNativeTarget "YHInternal" */;
+			buildConfigurationList = 494FB07774723B3070CAEDEBAAB8A124 /* Build configuration list for PBXNativeTarget "YHInternal" */;
 			buildPhases = (
-				46EC1736E3F0366B5A28C6C2D002B52A /* Sources */,
-				24725DB5AB01B36162E67AEDFE37E125 /* Frameworks */,
-				51405BA332FCDE2727CA265EB2C05C2C /* Headers */,
+				C79C9A43870D5CB3228E83DF30E1C97C /* Sources */,
+				A526657B52DFFEF8EA5D5004877412F8 /* Frameworks */,
+				53625CA2DADE46370E068ACF2A267BE0 /* Headers */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				63213EFA669775367CE9BCE57A34A8F1 /* PBXTargetDependency */,
+				378DEA6A7EBFE282B90ED97EA6A469D4 /* PBXTargetDependency */,
+				3BAE511BA394B167113CE84CDB9DE8F4 /* PBXTargetDependency */,
+				7C360A53C97BBD08172D1A0F8838FAB1 /* PBXTargetDependency */,
 			);
 			name = YHInternal;
 			productName = YHInternal;
-			productReference = AB2BC1B92E494EA0B640F34114CB04FA /* libYHInternal.a */;
+			productReference = BB246D89F6AB36BF1708D0C560CE7980 /* libYHInternal.a */;
 			productType = "com.apple.product-type.library.static";
 		};
-		A5397CAF0629216AE5507F114A7D701F /* Pods-YHComponentBasedDesign */ = {
+		C27D923FB4E2522A1E3B4B6A9350CF58 /* Pods-YHComponentBasedDesign */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = C8797D916F866190E1FE5A5CBC2ECFC3 /* Build configuration list for PBXNativeTarget "Pods-YHComponentBasedDesign" */;
+			buildConfigurationList = 35C892CD1BB5E993ED1C4C6FDC4D9CE2 /* Build configuration list for PBXNativeTarget "Pods-YHComponentBasedDesign" */;
 			buildPhases = (
-				22658BB5FC29E38994861F566969D1BA /* Sources */,
-				299113EDD0DDD6A66D8FC168C03F872F /* Frameworks */,
+				2D05CE4F9AF6D9B510AED9C34989E840 /* Sources */,
+				DC265DCDB023E0FC7C3333BED759A6F1 /* Frameworks */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				939863CC0056B3B50E324391CFAB45FF /* PBXTargetDependency */,
-				763C49F5B0E2F895CD284D1AF2ADADAF /* PBXTargetDependency */,
+				FD82D405E26491BF1FC88E55673C1970 /* PBXTargetDependency */,
+				F02569AF3924F71A4904FDA605136740 /* PBXTargetDependency */,
+				96F74A26BCB0E9DCC9F316BA1EEDC417 /* PBXTargetDependency */,
+				B4F52BF5708793756CE657D284FE1671 /* PBXTargetDependency */,
 			);
 			name = "Pods-YHComponentBasedDesign";
 			productName = "Pods-YHComponentBasedDesign";
-			productReference = B9A1E3BF3D3ACA9DC8AD11D86DE960FC /* libPods-YHComponentBasedDesign.a */;
+			productReference = 0D760471FA7B071A7A1EE479A5322A8F /* libPods-YHComponentBasedDesign.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		D1C91F11C123927038E57BCE215158D8 /* DependencyComponent */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 11ED14C2AFBF8970DAC4424D02EC83DF /* Build configuration list for PBXNativeTarget "DependencyComponent" */;
+			buildPhases = (
+				3E69406D68534029CA40F159FC96AA2F /* Sources */,
+				9B7BA4273C95953A4A1E84FC14A52D03 /* Frameworks */,
+				FEEDF293DE1A23991AD653B732D9B7E6 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DependencyComponent;
+			productName = DependencyComponent;
+			productReference = 57C58EC322C07412F95E2EB0E1969F5C /* libDependencyComponent.a */;
 			productType = "com.apple.product-type.library.static";
 		};
 /* End PBXNativeTarget section */
@@ -319,88 +564,136 @@
 				en,
 			);
 			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
-			productRefGroup = C5CA3B60D4F0DF7D115EC4866BE9C5B1 /* Products */;
+			productRefGroup = 87271C9729F88EF188292A212164953D /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				A5397CAF0629216AE5507F114A7D701F /* Pods-YHComponentBasedDesign */,
-				36719E248F8CF87732CAB588FE7528EC /* YHInternal */,
-				03BC1BD93539E41038F33576B800F84F /* YHPublic */,
+				D1C91F11C123927038E57BCE215158D8 /* DependencyComponent */,
+				0AD2A07C0B5E5DEB636E2B1CD9F05DE7 /* DirectorComponent */,
+				C27D923FB4E2522A1E3B4B6A9350CF58 /* Pods-YHComponentBasedDesign */,
+				7D261F421D5823A5031633C1AF52863B /* YHInternal */,
+				58D0E04DFA3E37A8B19DA5574D5A6FEE /* YHPublic */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXSourcesBuildPhase section */
-		22658BB5FC29E38994861F566969D1BA /* Sources */ = {
+		2059506210A7751958942F7EF90FDAE5 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				51A268EBE2A83111B6030EFD00C73C73 /* Pods-YHComponentBasedDesign-dummy.m in Sources */,
+				339FB222D9E4B8DC4EC00F8DC6C19F0A /* PublicViewController.m in Sources */,
+				BE65471050EAF5B067A7A8B8C7D99932 /* YHPublic-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		37BE2F05662D4C4E1CE241AB8259F3C5 /* Sources */ = {
+		2D05CE4F9AF6D9B510AED9C34989E840 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				713B4D2D3E56C693C62503C26E8A8030 /* PublicViewController.m in Sources */,
-				E3ECEBDCD9F7472B917404C756446578 /* YHPublic-dummy.m in Sources */,
+				E936B408201685C6A2786B761E72D69C /* Pods-YHComponentBasedDesign-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		46EC1736E3F0366B5A28C6C2D002B52A /* Sources */ = {
+		3E69406D68534029CA40F159FC96AA2F /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3AB3A5233E479B24F15B73BD89183C07 /* InternalViewController.m in Sources */,
-				BA6F1829EB7D9811AAD5B9198729FC2C /* YHInternal-dummy.m in Sources */,
+				8357A35BF077821503E22FCD7C9598D8 /* DependencyComponent-dummy.m in Sources */,
+				7737F574DBB0E06BEEC214F4111F6A7D /* DependencyComponent.podspec in Sources */,
+				D6C16E06A78912C43CA44FA54B8BA9FD /* DependencyManager.m in Sources */,
+				541B3D3161EF2211371521F27ECF6D55 /* LICENSE in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7B2E37FDC3BA05FCE5C60282AF1B67E7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5F55B98EFEAC8D0074DBBB10297CA571 /* DirectorComponent-dummy.m in Sources */,
+				3B99AA197690D789CC243CCA5B2FE866 /* DirectorComponent.podspec in Sources */,
+				B5D0C79CAFF4F591AC19297919414578 /* LICENSE in Sources */,
+				308167EA43DF5B03AA647627D27ACEC5 /* YHDirector.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C79C9A43870D5CB3228E83DF30E1C97C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A7CDB1BBCA5EB214326F1CECE1BB5E6E /* InternalNextViewController.m in Sources */,
+				02C8F8C6EB149F8F460A13F548B2FB4E /* InternalViewController.m in Sources */,
+				6AECAAC50100F78835B85F0E040190F1 /* YHDirector+ComponentA.m in Sources */,
+				D9A3B7612BF90EADA3EAF41139D21724 /* YHInternal-dummy.m in Sources */,
+				B24BBAC850F941154F31756971790DC9 /* YHInternalModule.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		63213EFA669775367CE9BCE57A34A8F1 /* PBXTargetDependency */ = {
+		378DEA6A7EBFE282B90ED97EA6A469D4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = DependencyComponent;
+			target = D1C91F11C123927038E57BCE215158D8 /* DependencyComponent */;
+			targetProxy = D6C21C6C1676ED5F8D1A2F7039087178 /* PBXContainerItemProxy */;
+		};
+		3BAE511BA394B167113CE84CDB9DE8F4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = DirectorComponent;
+			target = 0AD2A07C0B5E5DEB636E2B1CD9F05DE7 /* DirectorComponent */;
+			targetProxy = E357D58BBB96AD639E15FECDBB57897C /* PBXContainerItemProxy */;
+		};
+		7C360A53C97BBD08172D1A0F8838FAB1 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = YHPublic;
-			target = 03BC1BD93539E41038F33576B800F84F /* YHPublic */;
-			targetProxy = 72B1A5E3EE44C45B5FAA9D4828D2F2B3 /* PBXContainerItemProxy */;
+			target = 58D0E04DFA3E37A8B19DA5574D5A6FEE /* YHPublic */;
+			targetProxy = 73796DE79B1B7FA9670B3E3F3EAEAB48 /* PBXContainerItemProxy */;
 		};
-		763C49F5B0E2F895CD284D1AF2ADADAF /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = YHPublic;
-			target = 03BC1BD93539E41038F33576B800F84F /* YHPublic */;
-			targetProxy = 6245D06C6CA7AFD5FF5D29EB4AA4E939 /* PBXContainerItemProxy */;
-		};
-		939863CC0056B3B50E324391CFAB45FF /* PBXTargetDependency */ = {
+		96F74A26BCB0E9DCC9F316BA1EEDC417 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = YHInternal;
-			target = 36719E248F8CF87732CAB588FE7528EC /* YHInternal */;
-			targetProxy = 361B79DC6E3E90093F86CE26D00B247B /* PBXContainerItemProxy */;
+			target = 7D261F421D5823A5031633C1AF52863B /* YHInternal */;
+			targetProxy = 734CBD48AA5748A71FCD57A4F98C211C /* PBXContainerItemProxy */;
+		};
+		B4F52BF5708793756CE657D284FE1671 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = YHPublic;
+			target = 58D0E04DFA3E37A8B19DA5574D5A6FEE /* YHPublic */;
+			targetProxy = B49A4D4AE92CCB2CA267DF2A5951B3F8 /* PBXContainerItemProxy */;
+		};
+		F02569AF3924F71A4904FDA605136740 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = DirectorComponent;
+			target = 0AD2A07C0B5E5DEB636E2B1CD9F05DE7 /* DirectorComponent */;
+			targetProxy = 5612930C74BA9B43AF530A54B12CE994 /* PBXContainerItemProxy */;
+		};
+		FD82D405E26491BF1FC88E55673C1970 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = DependencyComponent;
+			target = D1C91F11C123927038E57BCE215158D8 /* DependencyComponent */;
+			targetProxy = EFD160D148041DB452EE5DAF2915D1F6 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		0FB1D5BD7E6042B47F6F3B35C543F48A /* Release */ = {
+		070B21526D16A3138B49E7F4EADACA72 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 387EDFFECA5C85DB4FADE448E84A2D29 /* YHPublic.xcconfig */;
+			baseConfigurationReference = 278A4E3D4FA3ED80DCBA18F12536C4EE /* Pods-YHComponentBasedDesign.release.xcconfig */;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				GCC_PREFIX_HEADER = "Target Support Files/YHPublic/YHPublic-prefix.pch";
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
-				MODULEMAP_FILE = Headers/Public/YHPublic/YHPublic.modulemap;
+				MACH_O_TYPE = staticlib;
 				OTHER_LDFLAGS = "";
 				OTHER_LIBTOOLFLAGS = "";
-				PRIVATE_HEADERS_FOLDER_PATH = "";
-				PRODUCT_MODULE_NAME = YHPublic;
-				PRODUCT_NAME = YHPublic;
-				PUBLIC_HEADERS_FOLDER_PATH = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
 			};
@@ -469,9 +762,9 @@
 			};
 			name = Debug;
 		};
-		499DEBAA39BB158CFE08838390BFE086 /* Debug */ = {
+		359AEF60F8612A1C5AC7E9F3EC6BE435 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 60574292A04809DD5BCF9E02CEBCD770 /* YHInternal.xcconfig */;
+			baseConfigurationReference = 940AEBCF8DAAD5E92FB555FA2AD7CFE3 /* YHInternal.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -493,55 +786,9 @@
 			};
 			name = Debug;
 		};
-		78E83BAF6303BEC150A2471A73BB6B52 /* Debug */ = {
+		5BE03D166DE23A52C22AA8A866BE735E /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 805B3377C76E6DA2C2D6A42C3DC1A1D7 /* Pods-YHComponentBasedDesign.debug.xcconfig */;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				CODE_SIGN_IDENTITY = "iPhone Developer";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
-				MACH_O_TYPE = staticlib;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-			};
-			name = Debug;
-		};
-		A68EE0401B76C9ABF82E74B46B2D0CC2 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 60574292A04809DD5BCF9E02CEBCD770 /* YHInternal.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "iPhone Developer";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				GCC_PREFIX_HEADER = "Target Support Files/YHInternal/YHInternal-prefix.pch";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
-				MODULEMAP_FILE = Headers/Public/YHInternal/YHInternal.modulemap;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PRIVATE_HEADERS_FOLDER_PATH = "";
-				PRODUCT_MODULE_NAME = YHInternal;
-				PRODUCT_NAME = YHInternal;
-				PUBLIC_HEADERS_FOLDER_PATH = "";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-			};
-			name = Release;
-		};
-		F02D53392410012159A96A63177469F0 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 387EDFFECA5C85DB4FADE448E84A2D29 /* YHPublic.xcconfig */;
+			baseConfigurationReference = 1ECFA256F6F15F1EC741CC8271A162DA /* YHPublic.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -563,9 +810,157 @@
 			};
 			name = Debug;
 		};
-		F41707F1119F8395F6819FA5ECC1645E /* Release */ = {
+		720C76654EAF163B32DD91D73ECA773F /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 278A4E3D4FA3ED80DCBA18F12536C4EE /* Pods-YHComponentBasedDesign.release.xcconfig */;
+			baseConfigurationReference = DBE442D98155FE41B82092225264BD5A /* DirectorComponent.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				GCC_PREFIX_HEADER = "Target Support Files/DirectorComponent/DirectorComponent-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MODULEMAP_FILE = Headers/Public/DirectorComponent/DirectorComponent.modulemap;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_MODULE_NAME = DirectorComponent;
+				PRODUCT_NAME = DirectorComponent;
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		7220AB9779163AC9855752AE92281EB0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DBE442D98155FE41B82092225264BD5A /* DirectorComponent.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				GCC_PREFIX_HEADER = "Target Support Files/DirectorComponent/DirectorComponent-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MODULEMAP_FILE = Headers/Public/DirectorComponent/DirectorComponent.modulemap;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_MODULE_NAME = DirectorComponent;
+				PRODUCT_NAME = DirectorComponent;
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A669A8F525D8B0C9C254B74D6709CE62 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 940AEBCF8DAAD5E92FB555FA2AD7CFE3 /* YHInternal.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				GCC_PREFIX_HEADER = "Target Support Files/YHInternal/YHInternal-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MODULEMAP_FILE = Headers/Public/YHInternal/YHInternal.modulemap;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_MODULE_NAME = YHInternal;
+				PRODUCT_NAME = YHInternal;
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		AC89C86941707F3DAF03D5B9A391AEF1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1ECFA256F6F15F1EC741CC8271A162DA /* YHPublic.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				GCC_PREFIX_HEADER = "Target Support Files/YHPublic/YHPublic-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MODULEMAP_FILE = Headers/Public/YHPublic/YHPublic.modulemap;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_MODULE_NAME = YHPublic;
+				PRODUCT_NAME = YHPublic;
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B8877624D8C29561A0141A8A4D1361C9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D90CAB7811CC6CFB2E1AD4673FD034B0 /* DependencyComponent.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				GCC_PREFIX_HEADER = "Target Support Files/DependencyComponent/DependencyComponent-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MODULEMAP_FILE = Headers/Public/DependencyComponent/DependencyComponent.modulemap;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_MODULE_NAME = DependencyComponent;
+				PRODUCT_NAME = DependencyComponent;
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D35C706163614E72A2B13C655055B81E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D90CAB7811CC6CFB2E1AD4673FD034B0 /* DependencyComponent.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				GCC_PREFIX_HEADER = "Target Support Files/DependencyComponent/DependencyComponent-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MODULEMAP_FILE = Headers/Public/DependencyComponent/DependencyComponent.modulemap;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_MODULE_NAME = DependencyComponent;
+				PRODUCT_NAME = DependencyComponent;
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		FBC264B460006ACBE3312C1C89C39899 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 805B3377C76E6DA2C2D6A42C3DC1A1D7 /* Pods-YHComponentBasedDesign.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
@@ -581,9 +976,8 @@
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
 			};
-			name = Release;
+			name = Debug;
 		};
 		FDB2FC4A1E5891381CD9D922145497F1 /* Release */ = {
 			isa = XCBuildConfiguration;
@@ -646,11 +1040,11 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		0DBF0CEFD5AD36BECE8AD6A8D76BC573 /* Build configuration list for PBXNativeTarget "YHPublic" */ = {
+		11ED14C2AFBF8970DAC4424D02EC83DF /* Build configuration list for PBXNativeTarget "DependencyComponent" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				F02D53392410012159A96A63177469F0 /* Debug */,
-				0FB1D5BD7E6042B47F6F3B35C543F48A /* Release */,
+				D35C706163614E72A2B13C655055B81E /* Debug */,
+				B8877624D8C29561A0141A8A4D1361C9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -664,20 +1058,38 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		3FADDD4B375D0833797F2D3938936E2E /* Build configuration list for PBXNativeTarget "YHInternal" */ = {
+		35C892CD1BB5E993ED1C4C6FDC4D9CE2 /* Build configuration list for PBXNativeTarget "Pods-YHComponentBasedDesign" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				499DEBAA39BB158CFE08838390BFE086 /* Debug */,
-				A68EE0401B76C9ABF82E74B46B2D0CC2 /* Release */,
+				FBC264B460006ACBE3312C1C89C39899 /* Debug */,
+				070B21526D16A3138B49E7F4EADACA72 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		C8797D916F866190E1FE5A5CBC2ECFC3 /* Build configuration list for PBXNativeTarget "Pods-YHComponentBasedDesign" */ = {
+		494FB07774723B3070CAEDEBAAB8A124 /* Build configuration list for PBXNativeTarget "YHInternal" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				78E83BAF6303BEC150A2471A73BB6B52 /* Debug */,
-				F41707F1119F8395F6819FA5ECC1645E /* Release */,
+				359AEF60F8612A1C5AC7E9F3EC6BE435 /* Debug */,
+				A669A8F525D8B0C9C254B74D6709CE62 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		71CA970F1C3C3F9E504810CD519133A0 /* Build configuration list for PBXNativeTarget "DirectorComponent" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				720C76654EAF163B32DD91D73ECA773F /* Debug */,
+				7220AB9779163AC9855752AE92281EB0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D17011BF52F54BCF7956200790B2203F /* Build configuration list for PBXNativeTarget "YHPublic" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5BE03D166DE23A52C22AA8A866BE735E /* Debug */,
+				AC89C86941707F3DAF03D5B9A391AEF1 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

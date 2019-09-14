@@ -1,0 +1,6 @@
+module DirectorComponent {
+  umbrella header "DirectorComponent-umbrella.h"
+
+  export *
+  module * { export * }
+}

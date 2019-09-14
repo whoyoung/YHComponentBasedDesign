@@ -9,6 +9,7 @@
 #import "ViewController.h"
 
 @import YHPublic;
+@import DependencyComponent;
 
 @interface ViewController () <UITableViewDelegate,UITableViewDataSource>
 
@@ -24,7 +25,7 @@
     [super viewDidLoad];
     self.title = @"Root";
 
-    self.datas = @[@"toPublickController"];
+    self.datas = @[@"toPublicController",@"toInternalController"];
     
     self.tableView = [[UITableView alloc] initWithFrame:CGRectMake(0, 84, [UIScreen mainScreen].bounds.size.width, [UIScreen mainScreen].bounds.size.height - 84) style:UITableViewStylePlain];
     self.tableView.dataSource = self;
@@ -55,9 +56,14 @@
 #pragma clang diagnostic pop
 }
 
-- (void)toPublickController {
+- (void)toPublicController {
     PublicViewController *publicVC = [[PublicViewController alloc] init];
     [self.navigationController pushViewController:publicVC animated:YES];
+}
+
+- (void)toInternalController {
+    id<YHDirectorProtocolCompontA> obj = YHGetDependency(YHDirectorProtocolCompontA);
+    [obj enterInternalVC:nil];
 }
 
 @end

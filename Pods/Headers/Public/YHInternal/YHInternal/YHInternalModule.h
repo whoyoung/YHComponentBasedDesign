@@ -1,0 +1,1 @@
+../../../../../LocalPods/ComponentA/Internal/YHInternalModule.h

@@ -14,7 +14,7 @@
             buildForArchiving = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "36719E248F8CF87732CAB588FE7528EC"
+               BlueprintIdentifier = "7D261F421D5823A5031633C1AF52863B"
                BlueprintName = "YHInternal"
                ReferencedContainer = "container:Pods.xcodeproj"
                BuildableName = "libYHInternal.a">

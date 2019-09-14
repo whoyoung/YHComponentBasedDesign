@@ -11,6 +11,7 @@
 #endif
 
 #import "PublicViewController.h"
+#import "YHDirectorProtocolCompontA.h"
 
 FOUNDATION_EXPORT double YHPublicVersionNumber;
 FOUNDATION_EXPORT const unsigned char YHPublicVersionString[];

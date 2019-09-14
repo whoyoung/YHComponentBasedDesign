@@ -10,7 +10,10 @@
 #endif
 #endif
 
+#import "InternalNextViewController.h"
 #import "InternalViewController.h"
+#import "YHDirector+ComponentA.h"
+#import "YHInternalModule.h"
 
 FOUNDATION_EXPORT double YHInternalVersionNumber;
 FOUNDATION_EXPORT const unsigned char YHInternalVersionString[];
